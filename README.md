@@ -1,6 +1,21 @@
-# Vue 3 + Vite
+# Mühle Spiel mit KI
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Dieses Projekt implementiert ein einfaches Mühle-Spiel in Vue 3 mit einem Python-Backend. 
+Das Backend stellt einen Endpunkt zur Verfügung, der einen zufälligen KI-Zug liefert. 
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
-# BeniMA
+## Installation
+
+### Frontend
+```bash
+npm install
+npm run dev
+```
+
+### Backend
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+
+Das Frontend erwartet das Backend standardmäßig unter `http://localhost:5000`.
